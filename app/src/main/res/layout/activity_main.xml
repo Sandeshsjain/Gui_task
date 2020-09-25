@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="FRUITS SHOP"
+            android:textColor="#FB075A"
+            android:textSize="25dp">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/fruit_shop_home">
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/berkshire_swash"
+                android:gravity="center"
+                android:text="Buy Fresh &amp; Organic Fruits"
+                android:textColor="#000"
+                android:textSize="30dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/abhaya_libre"
+                android:gravity="center"
+                android:paddingLeft="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="20dp"
+                android:paddingRight="30dp"
+                android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+                android:textColor="#515050"
+                android:textSize="15dp">
+
+            </TextView>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="30dp">
+            <Button
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:onClick="start_shopping"
+                android:text="Start Shopping Now"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:background="@drawable/button_style_home_page">
+
+            </Button>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <TextView
+        android:paddingTop="15dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Skip intro"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:textStyle="bold">
+
+    </TextView>
+
+</LinearLayout>
